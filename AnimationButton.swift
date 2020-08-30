@@ -30,6 +30,7 @@ struct AnimationButton: View {
             .frame(width: width, height: 60, alignment: .leading)
         }.animation(.interactiveSpring(response: 0.4, dampingFraction: 0.4, blendDuration: 0.5))
     }
+    
     func addItem(){
         //When tapping button function here
         tapped.toggle()
